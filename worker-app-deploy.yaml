@@ -1,4 +1,3 @@
----
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -20,5 +19,5 @@ spec:
         app: demo-voting-app
     spec:
       containers:
-      - name: worker-app
-        image: kodekloud/examplevotingapp_worker:v1
+        - name: worker-app
+          image: kodekloud/examplevotingapp_worker
